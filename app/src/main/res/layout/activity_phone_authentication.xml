@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".PhoneAuthentication">
+
+    <TextView
+            android:id="@+id/tv_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="Registration Form"
+            android:textAlignment="center"
+            android:textColor="#8E24AA"
+            android:textSize="32dp"
+            android:textStyle="bold"
+    />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:digits="0123456789"
+            android:layout_below="@+id/tv_registration"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Phone Number"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:paddingVertical="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textColorHint="#92000307" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="text"
+            android:layout_below="@+id/et_number"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Enter your Code"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:paddingVertical="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textColorHint="#92000307" />
+
+
+    <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="-106dp"
+            android:layout_alignBottom="@+id/et_code"
+            android:background="@drawable/button_back"
+            android:text="Verify"
+            android:textAlignment="center"
+            android:textColor="#FAFCFB"
+            android:textSize="20dp" />
+
+
+    <Button
+            android:id="@+id/btn_authenticate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="-106dp"
+            android:layout_alignBottom="@+id/btn_verify"
+            android:background="@drawable/button_back"
+            android:text="Authenticate"
+            android:textAlignment="center"
+            android:textColor="#FAFCFB"
+            android:textSize="20dp" />
+
+
+
+    <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/et_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:visibility="invisible" />
+
+
+
+</RelativeLayout>

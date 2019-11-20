@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "858630751665",
+    "firebase_url": "https://kotlinphoneauth-348bb.firebaseio.com",
+    "project_id": "kotlinphoneauth-348bb",
+    "storage_bucket": "kotlinphoneauth-348bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858630751665:android:69e690bdcb3ed0e2bee990",
+        "android_client_info": {
+          "package_name": "com.sumayea.kotlin_phoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858630751665-6s5e2hcc4kdf5m8ml0ofree2gls7u2ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sumayea.kotlin_phoneauth",
+            "certificate_hash": "392a0362319b3da61be7ec0b8051acfe74de61c8"
+          }
+        },
+        {
+          "client_id": "858630751665-i2srjiv8m58guc86fscnf4f2925oiaeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTkOUtXLIU1mVODeVGkolRnpda6s4Dmas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858630751665-i2srjiv8m58guc86fscnf4f2925oiaeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

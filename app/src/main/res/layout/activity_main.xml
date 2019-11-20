@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tv_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="#8E24AA"
+            android:gravity="center"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="32dp"
+            android:textStyle="bold"
+    />
+
+
+    <Button
+            android:id="@+id/btn_signOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="-106dp"
+            android:layout_alignBottom="@+id/tv_registration"
+            android:background="@drawable/button_back"
+            android:text="Sign Out"
+            android:textAlignment="center"
+            android:textColor="#FAFCFB"
+            android:textSize="20dp" />
+
+
+
+
+
+</RelativeLayout>
